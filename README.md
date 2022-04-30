@@ -1,4 +1,5 @@
 # Voltage-Moitor-Raspberry-Pi
+
 # Description
 This project measures the ADC value and the voltage using the potentiometer on Raspberry Pi. This code also uses an email class with smtplib to send a notication via email when the voltage reading is high. This project assumes that you have already setup your Raspberry Pi and have the Freenove Starter kit directory. If you do not you will need to setup Raspberry Pi and Freenove before you start this project. 
 
@@ -35,12 +36,14 @@ This is where we will install the libraries listed above.
 #### Install Smbus Module
 1. Install the smbus module
    1. sudo apt-get install python3-smbus 
+
 #### Install the custom ADC module
 1. From the terminal:
     1. cd ~/Freenove_Kit/Libs/Python-Libs/
     2. tar zxvf ADCDevice-1.0.3.tar.gz
     3. cd ADCDevice-1.0.3
-    4. sudo python2 setup.py install OR sudo python3 setup.py install
+    4. 'sudo python2 setup.py install' OR 'sudo python3 setup.py install'
+
 # Setup the code
 1. Download voltage.py
 2. Open voltage.py and change the following lines to correspond with the email notication:
