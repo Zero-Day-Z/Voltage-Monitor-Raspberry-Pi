@@ -19,8 +19,8 @@ This project measures the ADC value and the voltage using the potentiometer on R
 # Setup and Configuration
 ## Hardware
 Below is the following pinout for this project:
-_Note: please plug in your cables BEFORE turning on your Raspberry Pi to prevent shorting out your parts._
 ![image](https://user-images.githubusercontent.com/66813474/166069353-075b1209-2701-46f9-be54-19558c3a7fe3.png)
+_Note: please plug in your cables BEFORE turning on your Raspberry Pi to prevent shorting out your parts._
 
 
 ## Software
