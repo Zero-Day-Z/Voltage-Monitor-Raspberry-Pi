@@ -47,4 +47,6 @@ This is where we will install the libraries listed above
     3. line 51: enter the recipient email
     4. line 52(optional): you can change the email subject
     5. line 53(optional): you can change the contents of the email
+4. Run voltage.py and turn the dial on the potentiometer to change the voltage
+
 
